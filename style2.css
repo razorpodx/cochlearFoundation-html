@@ -1,0 +1,435 @@
+*
+{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+}
+
+/* navbar styling*/
+header{
+   /*width: 1920px;*/ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #5b4962;
+}
+
+li,a
+{
+   
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "Circular XX";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.logo 
+{
+    cursor: pointer;
+    font-weight: 300;
+    font-family: "Circular XX";
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.navLinks
+{
+   list-style: none;
+
+}
+.navLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover{
+    color: black;
+}
+/*navbar styling end*/
+
+/*image slider editing starts*/
+
+.slider-box
+{
+    width: 90%;
+    height: 80vh;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#slider
+{
+    width: 100%;
+    display: inline-flex;
+    transition: 0.7s;
+}
+
+#slider img{
+    width: 100%;}
+    
+    
+.indicators{
+ position: absolute;
+ left: 50%;
+ bottom: 20px;
+ transform: translate(-50%);  
+}
+
+.indicators span{
+  display: inline-block;
+  width: 15px;
+  height:15px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+
+}
+
+.active
+{
+    background: #fff !important;
+}
+
+/* slider css ends here */
+
+
+/* div1 css starts */
+.div1 {
+    display: flex;
+    background-color:  #eae7dc;
+}
+
+.div1-child {
+    flex: 1;
+    
+}  
+
+.div1-child:first-child {
+    margin-right: 0px;
+} 
+
+.para1
+{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 65px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 75px;
+text-align: left;
+padding:100px 100px;
+}
+.para11
+{ color: #ffffff;
+    font-family: "Circular XX";
+    font-size: 65px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 75px;
+    text-align: left;
+    padding:100px 100px;
+}
+
+.golbally
+{
+    color:#f1be48;}
+
+.para2
+{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 18px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+padding:100px 100px;
+
+}
+
+/* div1 css ends */
+
+/* div2 css starts */
+.div2 {
+    display: flex;
+    background-color: #5b4962;
+    }
+    
+    .div2-img img
+    {
+        object-fit: contain;
+    }
+
+.div2-child {
+    flex: 1;
+    background-color: #5b4962;
+    }  
+
+.heading
+{color: #ffffff;
+    font-family: "Circular XX";
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    padding:25px 100px 0px;
+}
+
+.history
+{
+    color: #f1be48;
+}
+
+.para3
+{
+    color: #ffffff;
+font-family: "Circular XX";
+font-size: 18px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+padding:25px 100px;
+}
+
+.btn-2
+{
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+border-radius: 31px;
+background-color: #ffffff;
+padding: 15px 50px;
+color: #5b4962;
+font-family: "Circular XX";
+font-size: 22px;
+font-weight: 700;
+justify-content: space-between;
+margin-left: 150px;
+margin-bottom: 30px;
+}
+/* div2 css ends */
+
+
+/* div3 css styling */
+.div3
+{
+    background-color: #eae7dc;
+    display: flex;
+}
+
+
+.div3-child {
+    flex: 1;
+    
+} 
+.heading2
+{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 72px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding:100px 100px 0px;
+} 
+.para4
+{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 22px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding:0px 100px;
+
+}
+.btn-3
+{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+border-radius: 31px;
+background-color: #5b4962;
+padding: 15px 50px;
+color: #ffffff;
+font-family: "Circular XX";
+font-size: 22px;
+font-weight: 700;
+justify-content: space-between;
+margin-left: 100px;
+margin-top: 200px;
+}
+.para5{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 18px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+padding: 100px 100px;
+}
+.dot {
+    width: 9px;
+height: 9px;
+background-color: #efbd46;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  /* div3 css ending */
+
+/* div4 styling starts */
+
+.div4
+{
+    background-color: #eae7dc;
+    display: flex;
+}
+
+.heading3
+  {
+      color: #5b4962;
+    font-family: "Circular XX";
+    font-size: 90px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    padding-right: 800px;
+    padding-left: 200px;
+    
+  } 
+
+/* div4 styling ends */
+
+
+/* div5 styling starts */
+.div5
+{
+    background-color: #eae7dc;
+    display: flex;
+}
+.div5-child {
+    flex: 1;
+    
+} 
+.pampletimg{
+    border-radius: 20px;
+   width: 80%;
+   padding-left: 150px;
+} 
+.para6{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 18px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+padding-bottom: 30px;
+
+}
+.heading4{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 28px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+}
+
+/* div5 styling ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer styling starts */
+
+.footer
+{
+background-color: #5b4962;
+display: flex;
+}
+.footer-child {
+    flex: 1;
+   
+}  
+.heading5
+{
+color: #f0bd46;
+font-family: "Circular XX";
+font-size: 18px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding: 20px 100px 10px;
+}
+
+.para7
+{
+    color: #ffffff;
+font-family: "Circular XX";
+font-size: 12px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+padding: 20px 20px;
+}
+
+/* footer styling ends */
