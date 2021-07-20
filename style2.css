@@ -69,6 +69,9 @@ li,a
     width: 100%;
     display: inline-flex;
     transition: 0.7s;
+    position: relative;
+  text-align: center;
+  color: white;
 }
 
 #slider img{
@@ -96,6 +99,48 @@ li,a
 {
     background: #fff !important;
 }
+
+/* text-on-img styling */
+.text-on-img
+{
+    position: absolute;
+    top: 20%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+.on-img-heading
+{ color:#ffffff;
+    font-family: "Circular XX";
+font-size: 45px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+}
+.malalafund
+{
+    color: #f1be48;
+    
+}
+
+.btn-1
+{
+    width: 180px;
+height: 40px;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+border-radius: 31px;
+background-color: #5b4962;
+margin-top: 40px;
+margin-left: -50px;
+font-size: 18px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+}
+/* text-on-img styling ends */
 
 /* slider css ends here */
 
@@ -312,8 +357,10 @@ background-color: #efbd46;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    padding-right: 800px;
-    padding-left: 200px;
+    padding-left: 150px;
+    display: inline-block;
+    padding-bottom: 50px;
+    padding-top: 50px;
     
   } 
 
@@ -331,33 +378,57 @@ background-color: #efbd46;
     
 } 
 .pampletimg{
-    border-radius: 20px;
+    border-radius: 15px;
    width: 80%;
    padding-left: 150px;
 } 
 .para6{
     color: #5b4962;
 font-family: "Circular XX";
-font-size: 18px;
+font-size: 14px;
 font-weight: 700;
 font-style: normal;
 letter-spacing: normal;
 line-height: 30px;
 text-align: left;
 padding-bottom: 30px;
+padding-top: 15px;
 
 }
 .heading4{
     color: #5b4962;
 font-family: "Circular XX";
-font-size: 28px;
+font-size: 24px;
 font-weight: 700;
 font-style: normal;
 letter-spacing: normal;
 line-height: normal;
 text-align: left;
+padding-top: 10px;
+padding-bottom: 0px;
 }
 
+.shortword
+{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 15px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+padding-top: 15px;
+}
+
+.img1
+{
+    padding-top: 25px;
+}
+.img2
+{
+    padding-top: 25px;
+}
 /* div5 styling ends */
 
 
