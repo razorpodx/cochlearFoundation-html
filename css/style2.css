@@ -4,6 +4,10 @@
     margin:0;
     padding: 0;
 }
+body
+{
+    background-color: #eae7dc;
+}
 
 /* navbar styling*/
 header{
@@ -336,8 +340,22 @@ background-color: #efbd46;
     border-radius: 50%;
     display: inline-block;
   }
+  
 
   /* div3 css ending */
+
+  /* seprationdiv starts */
+.seprationdiv h4 hr
+{   margin-top: 50px;
+    margin-left: 80px;
+   margin-right: 80px;
+    border: none;
+    border-top: 1px solid #5b4962;
+    border-radius: 30%;
+    
+}
+
+/* seprationdiv ends */
 
 /* div4 styling starts */
 
@@ -429,6 +447,11 @@ padding-top: 15px;
 {
     padding-top: 25px;
 }
+
+.corrected
+{
+    margin-top: 60px;
+}
 /* div5 styling ends */
 
 /* footer styling starts */
@@ -437,6 +460,7 @@ padding-top: 15px;
 {
 background-color: #5b4962;
 display: flex;
+margin-top: 20px;
 }
 .footer-child {
     flex: 1;
