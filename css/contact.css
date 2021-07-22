@@ -1,0 +1,169 @@
+*
+{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+}
+body
+{
+    background-color: #eae7dc;
+}
+/* navbar styling*/
+header{
+   /*width: 1920px;*/ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #5b4962;
+    box-shadow: 0 4px 4px -4px rgba(0,0,0,.4);
+}
+
+li,a
+{
+   
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "Circular XX";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.logo 
+{
+    cursor: pointer;
+    font-weight: 300;
+    font-family: "Circular XX";
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.navLinks
+{
+   list-style: none;
+
+}
+.navLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover{
+    color: black;
+}
+/*navbar styling end*/
+
+/* head styling */
+
+.head{
+    height: 10%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: #5b4962;
+}
+
+.span
+{ color: #f1be48;
+    
+
+}
+.heading
+{
+   color: #ffffff;
+   font-family: "Circular XX";
+   font-size: 80px;
+   font-weight: 700;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   text-align: left;
+   margin-left: 120px;
+   padding-bottom: 30px;
+   padding-top: 50px;
+}
+/* head styling ends */
+
+
+/* contactDetails styling */
+
+.contactDetails
+{
+    padding: 40px 120px;
+}
+h4
+{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 22px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding: 40px;
+}
+h2{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 28px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 45px;
+text-align: left;
+padding: 20px 40px;
+}
+p{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 18px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+padding: 20px 40px;
+}
+
+/* footer styling starts */
+
+.footer
+{
+background-color: #5b4962;
+display: flex;
+margin-top: 20px;
+}
+.footer-child {
+    flex: 1;
+   
+}  
+.heading5
+{
+color: #f0bd46;
+font-family: "Circular XX";
+font-size: 18px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding: 20px 100px 10px;
+}
+
+.para7
+{
+    color: #ffffff;
+font-family: "Circular XX";
+font-size: 12px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+padding: 20px 20px;
+}
+
+/* footer styling ends */
