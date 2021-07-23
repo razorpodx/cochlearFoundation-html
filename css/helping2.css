@@ -1,0 +1,427 @@
+*
+{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+}
+body
+{
+    background-color: #eae7dc;
+}
+/* navbar styling*/
+header{
+   /*width: 1920px;*/ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #5b4962;
+    box-shadow: 0 4px 4px -4px rgba(0,0,0,.4);
+}
+
+li,a
+{
+   
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "Circular XX";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.logo 
+{
+    cursor: pointer;
+    font-weight: 300;
+    font-family: "Circular XX";
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.navLinks
+{
+   list-style: none;
+
+}
+.navLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover{
+    color: black;
+}
+/*navbar styling end*/
+
+
+/* div1 styling starts */
+
+.div1
+{
+    background-color: #5b4962;
+    height: 125vh;
+}
+h1
+{
+    color: #ffffff;
+font-family: "Circular XX";
+font-size: 72px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding-left: 150px;
+margin-bottom: -130px;
+padding-top: 20px;
+}
+h5
+{
+    color: #ffffff;
+font-family: "Circular XX";
+font-size: 22px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding-left: 150px;
+padding-top: 50px;
+}
+
+.first
+{   width: 70%;
+    border-radius: 20%;
+    padding-left: 180px;
+   
+}
+/* video box styling */
+
+body
+{
+    background-color: #eae7dc;
+    
+    
+}
+
+.video-box
+{
+    width: 70%;
+    height: 90vh;
+    margin-top: 160px;
+    margin-left: 140px;
+    justify-content: center;
+    border-radius: 0%;
+    
+   
+}
+/* video box styling ends */
+/* div1 styling ends */
+
+
+/* para and heading */
+
+.div2
+{
+    padding-left: 150px;
+    margin-top: 200px;
+}
+
+h2{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 35px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+}
+
+h3{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 22px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+}
+p{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 18px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+}
+
+.sapn1
+{
+    text-decoration: underline;
+}
+
+.span{
+    font-size: 10px;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+/* div3 styling */
+.div3
+{
+    display: flex;
+}
+
+.div3-child
+{
+    flex: 1;
+}
+
+h4{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 35px;
+font-weight: 700;
+font-style: italic;
+letter-spacing: normal;
+line-height: 50px;
+text-align: left;
+}
+h6{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 18px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+}
+
+img
+{
+    padding-left: 150px;
+}
+
+.position
+{
+    padding-top: 130px;
+}
+/* div3 styling ends */
+
+/* div4 styling */
+.div4
+{
+    padding-left: 150px;
+    
+}
+
+#para
+{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 35px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 50px;
+text-align: center;
+margin-left: -80px;
+padding: 20px 0px;
+}
+.slogan
+{
+    background-color: #f7f5ef;
+    margin-left: -200px;
+}
+.points-5
+{  padding: 40px  0px;
+    color: #5b4962;
+    font-family: "Circular XX";
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+}
+/* div4 styling ends */
+
+/* seprationdiv starts */
+.seprationdiv h4 hr
+{   margin-top: -0px;
+    margin-left: 100px;
+   margin-right: 100px;
+    border: none;
+    border-top: 1px solid #5b4962;
+    border-radius: 30%;
+}
+
+/* seprationdiv ends */
+
+/* div5 styling starts */
+
+.div5
+{
+    background-color: #eae7dc;
+    display: flex;
+    /* padding-top: 700px;
+    padding-bottom: 0px; */
+}
+
+.heading3
+  {
+      color: #5b4962;
+    font-family: "Circular XX";
+    font-size: 65px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    padding-left: 150px;
+    display: inline-block;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+  } 
+
+  
+/* div5 styling ends */
+
+
+
+
+/* div6 styling starts */
+.div6
+{
+    background-color: #eae7dc;
+    display: flex;
+}
+.div6-child {
+    flex: 1;
+    padding-top: 50px;
+    
+} 
+.pampletimg{
+    border-radius: 15px;
+   width: 80%;
+   padding-left: 150px;
+  
+} 
+.para6{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 14px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+padding-bottom: 30px;
+margin-top: 135px;
+
+}
+.heading4{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 24px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding-top: 10px;
+padding-bottom: 0px;
+margin-left: -150px;
+}
+.correction
+{
+    margin-top: -60px;
+}
+
+.shortword
+{
+    color: #5b4962;
+font-family: "Circular XX";
+font-size: 15px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+padding-top: 15px;
+}
+
+.img1
+{
+    padding-top: 25px;
+}
+.img2
+{
+    padding-top: 25px;
+}
+.corrected
+{
+    margin-top: 60px;
+}
+.dot {
+    width: 9px;
+height: 9px;
+background-color: #efbd46;
+    border-radius: 50%;
+    display: inline-block;
+   
+    
+  }
+/* div6 styling ends */
+
+
+
+/* footer styling starts */
+
+.footer
+{
+background-color: #5b4962;
+display: flex;
+margin-top: 20px;
+}
+.footer-child {
+    flex: 1;
+   
+}  
+.heading5
+{
+color: #f0bd46;
+font-family: "Circular XX";
+font-size: 18px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding: 20px 100px 10px;
+}
+
+.para7
+{
+    color: #ffffff;
+font-family: "Circular XX";
+font-size: 12px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+padding: 20px 20px;
+}
+
+/* footer styling ends */

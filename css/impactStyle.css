@@ -93,6 +93,8 @@ body
 
 .video-box
 {
+    width: 50%;
+    height: 60vh;
     margin-top: 50px;
     margin-left: 280px;
     justify-content: center;
