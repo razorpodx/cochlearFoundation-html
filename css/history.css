@@ -154,10 +154,22 @@ font-style: normal;
 letter-spacing: normal;
 line-height: normal;
 }
-.momboy-img
+.mom-boy-img
 {
+    position: absolute;
+    z-index: 2;
 border-radius: 17px;
 padding-left: 150px;
+}
+
+.yellow-card
+{
+    position: absolute;
+    z-index: 1;
+border-radius: 17px;
+padding-left: 130px;
+margin-top: 90px;
+height: 40vh;
 }
 /* div1 styling ends */
 
@@ -178,6 +190,7 @@ font-style: normal;
 letter-spacing: normal;
 line-height: normal;
 padding-left: 150px;
+margin-top: 80px;
 }
 .span3
 {
