@@ -1,3 +1,7 @@
+@font-face { font-family: CircularXX-Black ; 
+    src: url('../font/CircularXX-Black.otf'); } 
+
+
 *
 {
     box-sizing:border-box;
@@ -21,7 +25,7 @@ li,a
    
     font-weight: 500;
     color: #ffffff;
-    font-family: "Circular XX";
+    font-family: "CircularXX-Black";
     font-size: 20px;
     text-decoration: none;
 }
@@ -30,7 +34,7 @@ li,a
 {
     cursor: pointer;
     font-weight: 300;
-    font-family: "Circular XX";
+    font-family: "CircularXX-Black";
     color: #ffffff;
     font-size: 35px;
 }
@@ -70,7 +74,7 @@ li,a
 .heading
 {
     color: #ffffff;
-    font-family: "Circular XX";
+    font-family: "CircularXX-Black";
     font-size: 40px;
     font-weight: 700;
     font-style: normal;
@@ -116,7 +120,7 @@ body
 {
 background-color: #5b4962;
 display: flex;
-margin-top: 500px;
+margin-top: 20px;
 }
 .footer-child {
     flex: 1;
@@ -125,8 +129,8 @@ margin-top: 500px;
 .heading5
 {
 color: #f0bd46;
-font-family: "Circular XX";
-font-size: 18px;
+font-family: "CircularXX-Black";
+font-size: 30px;
 font-weight: 700;
 font-style: normal;
 letter-spacing: normal;
@@ -138,8 +142,8 @@ padding: 20px 100px 10px;
 .para7
 {
     color: #ffffff;
-font-family: "Circular XX";
-font-size: 12px;
+font-family: "CircularXX-Black";
+font-size: 18px;
 font-weight: 300;
 font-style: normal;
 letter-spacing: normal;

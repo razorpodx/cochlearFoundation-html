@@ -1,3 +1,6 @@
+@font-face { font-family: CircularXX-Black ; 
+    src: url('../font/CircularXX-Black.otf'); } 
+
 *
 {
     box-sizing:border-box;
@@ -24,7 +27,7 @@ li,a
    
     font-weight: 500;
     color: #ffffff;
-    font-family: "Circular XX";
+    font-family: "CircularXX-Black";
     font-size: 20px;
     text-decoration: none;
 }
@@ -33,7 +36,7 @@ li,a
 {
     cursor: pointer;
     font-weight: 300;
-    font-family: "Circular XX";
+    font-family: "CircularXX-Black";
     color: #ffffff;
     font-size: 35px;
 }
@@ -68,7 +71,7 @@ li,a
 h1
 {
     color: #ffffff;
-font-family: "Circular XX";
+font-family: "CircularXX-Black";
 font-size: 72px;
 font-weight: 700;
 font-style: normal;
@@ -82,7 +85,7 @@ padding-top: 20px;
 h5
 {
     color: #ffffff;
-font-family: "Circular XX";
+font-family: "CircularXX-Black";
 font-size: 22px;
 font-weight: 700;
 font-style: normal;
@@ -94,9 +97,20 @@ padding-top: 50px;
 }
 
 .first
-{   width: 80%;
-    border-radius: 20%;
+{  position: absolute;
+    z-index: 2;
+     width: 80%;
+    padding-top: 280px;
     padding-left: 180px;
+   
+}
+.yellow-card
+{   position: absolute;
+    z-index: 1; 
+    width: 68%;
+    margin-top: 290px;
+    margin-left: 160px;
+    height: 524px;
    
 }
 /* div1 styling ends */
@@ -104,7 +118,7 @@ padding-top: 50px;
 /* para and heading styling*/
 h2{
     color: #5b4962;
-font-family: "Circular XX";
+font-family: "CircularXX-Black";
 font-size: 35px;
 font-weight: 700;
 font-style: normal;
@@ -120,7 +134,7 @@ padding-left: 160px;
 .para1
 {
     color: #5b4962;
-font-family: "Circular XX";
+font-family: "CircularXX-Black";
 font-size: 18px;
 font-weight: 300;
 font-style: normal;
@@ -128,7 +142,7 @@ letter-spacing: normal;
 line-height: 30px;
 text-align: left;
 padding-left: 160px;
-margin-top: 20px;
+margin-top: 60px;
 }
 
 /* seprationdiv starts */
@@ -156,7 +170,7 @@ margin-top: 20px;
 .heading3
   {
       color: #5b4962;
-    font-family: "Circular XX";
+    font-family: "CircularXX-Black";
     font-size: 65px;
     font-weight: 700;
     font-style: normal;
@@ -184,7 +198,7 @@ margin-top: 20px;
 }
 .para2{
     color: #5b4962;
-    font-family: "Circular XX";
+    font-family: "CircularXX-Black";
     font-size: 22px;
     font-weight: 700;
     font-style: normal;
@@ -196,10 +210,19 @@ margin-top: 20px;
     
 }
 .second-img
-{
+{ position: absolute;
+    z-index: 2;
     width: 541px;
 height: 408px;
 margin-left: 150px;
+}
+.yellow-card2
+{ position: absolute;
+    z-index: 2;
+    width: 541px;
+height: 408px;
+margin-left: 140px;
+margin-top: 10px;
 }
 
 /* div4 styling ends */
@@ -224,8 +247,8 @@ margin-left: 150px;
 } 
 .para6{
     color: #5b4962;
-font-family: "Circular XX";
-font-size: 14px;
+font-family: "CircularXX-Black";
+font-size: 18px;
 font-weight: 700;
 font-style: normal;
 letter-spacing: normal;
@@ -237,7 +260,7 @@ margin-top: 135px;
 }
 .heading4{
     color: #5b4962;
-font-family: "Circular XX";
+font-family: "CircularXX-Black";
 font-size: 24px;
 font-weight: 700;
 font-style: normal;
@@ -256,7 +279,7 @@ margin-left: -150px;
 .shortword
 {
     color: #5b4962;
-font-family: "Circular XX";
+font-family: "CircularXX-Black";
 font-size: 15px;
 font-weight: 700;
 font-style: normal;
@@ -306,7 +329,7 @@ margin-top: 20px;
 .heading5
 {
 color: #f0bd46;
-font-family: "Circular XX";
+font-family: "CircularXX-Black";
 font-size: 18px;
 font-weight: 700;
 font-style: normal;
@@ -319,7 +342,7 @@ padding: 20px 100px 10px;
 .para7
 {
     color: #ffffff;
-font-family: "Circular XX";
+font-family: "CircularXX-Black";
 font-size: 12px;
 font-weight: 300;
 font-style: normal;
