@@ -1,14 +1,22 @@
-@font-face { font-family: CircularXX-Black ; 
-    src: url('../font/CircularXX-Black.otf'); } 
-
-
+@font-face {
+    font-family: 'CircularXX';
+    src: url('CircularXX-Regular.woff2') format('woff2'),
+        url('CircularXX-Regular.woff') format('woff'),
+        url('CircularXX-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 *
 {
     box-sizing:border-box;
     margin:0;
     padding: 0;
 }
-
+body
+{
+    background-color: #eae7dc;
+}
 /* navbar styling*/
 header{
    /*width: 1920px;*/ 
@@ -17,7 +25,7 @@ header{
     align-items: center;
     padding: 30px 10%;
     background-color: #5b4962;
-    box-shadow: 5px 9px 18px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 4px 4px -4px rgba(0,0,0,.4);
 }
 
 li,a
@@ -25,7 +33,7 @@ li,a
    
     font-weight: 500;
     color: #ffffff;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     font-size: 20px;
     text-decoration: none;
 }
@@ -34,7 +42,7 @@ li,a
 {
     cursor: pointer;
     font-weight: 300;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     color: #ffffff;
     font-size: 35px;
 }
@@ -73,46 +81,61 @@ li,a
 }
 .heading
 {
-    color: #ffffff;
-    font-family: "CircularXX-Black";
-    font-size: 40px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: left;
+   color: #ffffff;
+   font-family: "CircularXX";
+   font-size: 80px;
+   font-weight: 700;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   text-align: left;
    margin-left: 120px;
    padding-bottom: 30px;
+   padding-top: 50px;
 }
 /* head styling ends */
 
-/* video box styling */
 
-body
+/* contactDetails styling */
+
+.contactDetails
 {
-    background-color: #eae7dc;
-    
-    
+    padding: 40px 120px;
 }
-
-.video-box
+h4
 {
-    width: 50%;
-    height: 60vh;
-    margin-top: 50px;
-    margin-left: 280px;
-    justify-content: center;
-    border-radius: 1%;
-    box-shadow: 5px 5px 3px grey;
-   
+    color: #5b4962;
+font-family: "CircularXX";
+font-size: 22px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding: 40px;
 }
-/* video box styling ends */
-
-
-
-
-
-
+h2{
+    color: #5b4962;
+font-family: "CircularXX";
+font-size: 28px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 45px;
+text-align: left;
+padding: 20px 40px;
+}
+p{
+    color: #5b4962;
+font-family: "CircularXX";
+font-size: 18px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+padding: 20px 40px;
+}
 
 /* footer styling starts */
 
@@ -129,7 +152,7 @@ margin-top: 20px;
 .heading5
 {
 color: #f0bd46;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 30px;
 font-weight: 700;
 font-style: normal;
@@ -142,7 +165,7 @@ padding: 20px 100px 10px;
 .para7
 {
     color: #ffffff;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 300;
 font-style: normal;
@@ -153,4 +176,3 @@ padding: 20px 20px;
 }
 
 /* footer styling ends */
-

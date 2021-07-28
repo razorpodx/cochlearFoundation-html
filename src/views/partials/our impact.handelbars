@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="wc-ref" content="< D1851837>">
+    <title> Our impact</title>
+    <link rel="stylesheet" href="../css/impactStyle.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Cochlear Foundation</a>
+     <nav class="nav">
+         <ul class="navLinks">
+             <li><a href="#">our history</a> </li>
+             <li><a href="#">our impact</a> </li>
+             <li><a href="#">case studies</a> </li>
+             <li><a href="#">contact us</a> </li>
+             
+         </ul>
+     </nav>
+    </header>
+    
+<div class="head">
+    <h1 class="heading"> <span class="span">Achive anything</span> <br> program</h1>
+</div>
+
+<video width="600" height="300" controls class="video-box">
+    <source src="../video/asta.webm" type="video/webm">
+   
+  Your browser does not support the video tag.
+  </video>
+
+    <footer class="footer">
+        <div class="footer-child">
+            <h6 class="heading5">contact</h6>
+            <h6 style="color: white; padding: 20px 100px;">contact@cochlearfoundation.org</h6>
+          </div>
+          
+          <div class="footre-child">
+            <p class="para7">Please be mindful that Cochlear Foundation is an invite-only grant-making organisation. We <br> distribute local grants that align with our aim to raise awareness of hearing loss and help more <br> people around the world access life-changing hearing treatment.</p>
+          </div>
+       
+    </footer>
+</body>
+</html>

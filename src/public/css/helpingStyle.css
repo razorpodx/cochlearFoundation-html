@@ -1,6 +1,12 @@
-@font-face { font-family: CircularXX-Black ; 
-    src: url('../font/CircularXX-Black.otf'); } 
-
+@font-face {
+    font-family: 'CircularXX';
+    src: url('CircularXX-Regular.woff2') format('woff2'),
+        url('CircularXX-Regular.woff') format('woff'),
+        url('CircularXX-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 *
 {
@@ -20,7 +26,7 @@ header{
     align-items: center;
     padding: 30px 10%;
     background-color: #5b4962;
-    box-shadow: 5px 9px 18px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 4px 4px -4px rgba(0,0,0,.4);
 }
 
 li,a
@@ -28,7 +34,7 @@ li,a
    
     font-weight: 500;
     color: #ffffff;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     font-size: 20px;
     text-decoration: none;
 }
@@ -37,7 +43,7 @@ li,a
 {
     cursor: pointer;
     font-weight: 300;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     color: #ffffff;
     font-size: 35px;
 }
@@ -61,49 +67,32 @@ li,a
 }
 /*navbar styling end*/
 
-/* head styling */
 
-.head{
-    height: 10%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-    background-color: #5b4962;
-}
+/* div1 styling starts */
 
-.span
-{ color: #f1be48;
-    
-
-}
-.heading
+.div1
 {
-   color: #ffffff;
-   font-family: "CircularXX-Black";
-   font-size: 80px;
-   font-weight: 700;
-   font-style: normal;
-   letter-spacing: normal;
-   line-height: normal;
-   text-align: left;
-   margin-left: 120px;
-   padding-bottom: 30px;
-   padding-top: 50px;
+    background-color: #5b4962;
+    height: 125vh;
 }
-/* head styling ends */
-
-/* div1 styling */
-
-.div1 {
-    display: flex;
+h1
+{
+    color: #ffffff;
+font-family: "CircularXX";
+font-size: 72px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+padding-left: 150px;
+margin-bottom: -130px;
+padding-top: 20px;
 }
-
-.div1-child {
-    flex: 1;
-   
-}  
-
-h5{
-    color: #5b4962;
-font-family: "CircularXX-Black";
+h5
+{
+    color: #ffffff;
+font-family: "CircularXX";
 font-size: 22px;
 font-weight: 700;
 font-style: normal;
@@ -111,62 +100,57 @@ letter-spacing: normal;
 line-height: normal;
 text-align: left;
 padding-left: 150px;
-padding-top: 40px;
+padding-top: 50px;
 }
 
-.info{
+.first
+{  position: absolute;
+    z-index: 2;
+     width: 80%;
+    padding-top: 280px;
+    padding-left: 180px;
+   
+}
+.yellow-card
+{   position: absolute;
+    z-index: 1; 
+    width: 68%;
+    margin-top: 290px;
+    margin-left: 160px;
+    height: 524px;
+   
+}
+/* div1 styling ends */
+
+/* para and heading styling*/
+h2{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
+font-size: 35px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+margin-top: 90px;
+padding-left: 160px;
+}
+.span{
+    text-decoration: underline;
+}
+.para1
+{
+    color: #5b4962;
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 300;
 font-style: normal;
 letter-spacing: normal;
 line-height: 30px;
 text-align: left;
-padding-left: 150px;
-padding-top: 20px;
+padding-left: 160px;
+margin-top: 60px;
 }
-
-.para{
-    color: #5b4962;
-    font-family: "CircularXX-Black";
-    font-size: 24px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 45px;
-    text-align: left;
-    padding-top: 50px;
-  }
-  .dot {
-    width: 9px;
-height: 9px;
-background-color: #efbd46;
-    border-radius: 50%;
-    display: inline-block;
-  }
-
-  .baby{
-      position: absolute;
-      z-index: 2;
-      padding-top: 20px;
-      margin-left: 150px;
-      width: 506px;
-height: 621px;
-
-  }
-  .yellow-card
-  {
-    position: absolute;
-    z-index: 1;
-    margin-top: 20px;
-    margin-left: 140px;
-    width: 506px;
-height: 621px;
-  }
-
-
-/* div1 styling ends */
 
 /* seprationdiv starts */
 .seprationdiv h4 hr
@@ -193,7 +177,7 @@ height: 621px;
 .heading3
   {
       color: #5b4962;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     font-size: 65px;
     font-weight: 700;
     font-style: normal;
@@ -210,6 +194,46 @@ height: 621px;
   
 /* div2 styling ends */
 
+/* div4 styling starts */
+.div4
+{
+    display: flex;
+}
+.div4-child
+{
+    flex: 1;
+}
+.para2{
+    color: #5b4962;
+    font-family: "CircularXX";
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 35px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 40px;
+    
+}
+.second-img
+{ position: absolute;
+    z-index: 2;
+    width: 541px;
+height: 408px;
+margin-left: 150px;
+}
+.yellow-card2
+{ position: absolute;
+    z-index: 2;
+    width: 541px;
+height: 408px;
+margin-left: 140px;
+margin-top: 10px;
+}
+
+/* div4 styling ends */
+
 
 /* div3 styling starts */
 .div3
@@ -219,16 +243,18 @@ height: 621px;
 }
 .div3-child {
     flex: 1;
+    padding-top: 50px;
     
 } 
 .pampletimg{
     border-radius: 15px;
    width: 80%;
    padding-left: 150px;
+  
 } 
 .para6{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 700;
 font-style: normal;
@@ -236,12 +262,12 @@ letter-spacing: normal;
 line-height: 30px;
 text-align: left;
 padding-bottom: 30px;
-padding-top: 15px;
+margin-top: 135px;
 
 }
 .heading4{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 24px;
 font-weight: 700;
 font-style: normal;
@@ -250,12 +276,17 @@ line-height: normal;
 text-align: left;
 padding-top: 10px;
 padding-bottom: 0px;
+margin-left: -150px;
+}
+.correction
+{
+    margin-top: -60px;
 }
 
 .shortword
 {
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 15px;
 font-weight: 700;
 font-style: normal;
@@ -277,6 +308,15 @@ padding-top: 15px;
 {
     margin-top: 60px;
 }
+.dot {
+    width: 9px;
+height: 9px;
+background-color: #efbd46;
+    border-radius: 50%;
+    display: inline-block;
+   
+    
+  }
 /* div3 styling ends */
 
 
@@ -296,8 +336,8 @@ margin-top: 20px;
 .heading5
 {
 color: #f0bd46;
-font-family: "CircularXX-Black";
-font-size: 30px;
+font-family: "CircularXX";
+font-size: 18px;
 font-weight: 700;
 font-style: normal;
 letter-spacing: normal;
@@ -309,8 +349,8 @@ padding: 20px 100px 10px;
 .para7
 {
     color: #ffffff;
-font-family: "CircularXX-Black";
-font-size: 18px;
+font-family: "CircularXX";
+font-size: 12px;
 font-weight: 300;
 font-style: normal;
 letter-spacing: normal;

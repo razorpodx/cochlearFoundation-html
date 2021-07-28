@@ -1,5 +1,13 @@
-@font-face { font-family: CircularXX-Black ; 
-    src: url('../font/CircularXX-Black.otf'); } 
+@font-face {
+    font-family: 'CircularXX';
+    src: url('CircularXX-Regular.woff2') format('woff2'),
+        url('CircularXX-Regular.woff') format('woff'),
+        url('CircularXX-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} 
+
 
 *
 {
@@ -27,7 +35,7 @@ li,a
    
     font-weight: 500;
     color: #ffffff;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     font-size: 20px;
     text-decoration: none;
 }
@@ -36,7 +44,7 @@ li,a
 {
     cursor: pointer;
     font-weight: 300;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     color: #ffffff;
     font-size: 35px;
 }
@@ -60,32 +68,40 @@ li,a
 }
 /*navbar styling end*/
 
+/* head styling */
 
-/* div1 styling starts */
-
-.div1
-{
+.head{
+    height: 10%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     background-color: #5b4962;
-    height: 125vh;
 }
-h1
-{
-    color: #ffffff;
-font-family: "CircularXX-Black";
-font-size: 72px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: left;
-padding-left: 150px;
-margin-bottom: -130px;
-padding-top: 20px;
+
+.span
+{ color: #f1be48;
+    
+
 }
-h5
+.heading
 {
-    color: #ffffff;
-font-family: "CircularXX-Black";
+   color: #ffffff;
+   font-family: "CircularXX";
+   font-size: 80px;
+   font-weight: 700;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: normal;
+   text-align: left;
+   margin-left: 120px;
+   padding-bottom: 30px;
+   padding-top: 50px;
+}
+/* head styling ends */
+
+
+/* para styling starts */
+h5{
+    color: #5b4962;
+font-family: "CircularXX";
 font-size: 22px;
 font-weight: 700;
 font-style: normal;
@@ -93,57 +109,105 @@ letter-spacing: normal;
 line-height: normal;
 text-align: left;
 padding-left: 150px;
-padding-top: 50px;
+padding-top: 30px;
 }
 
-.first
-{  position: absolute;
-    z-index: 2;
-     width: 80%;
-    padding-top: 280px;
-    padding-left: 180px;
-   
-}
-.yellow-card
-{   position: absolute;
-    z-index: 1; 
-    width: 68%;
-    margin-top: 290px;
-    margin-left: 160px;
-    height: 524px;
-   
-}
-/* div1 styling ends */
-
-/* para and heading styling*/
-h2{
+.para{
     color: #5b4962;
-font-family: "CircularXX-Black";
-font-size: 35px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: left;
-margin-top: 90px;
-padding-left: 160px;
-}
-.span{
-    text-decoration: underline;
-}
-.para1
-{
-    color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 300;
 font-style: normal;
 letter-spacing: normal;
 line-height: 30px;
 text-align: left;
-padding-left: 160px;
-margin-top: 60px;
+padding-left: 150px;
+padding-top: 20px;
+
 }
+.span1{
+    font-size: 10px;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+/* para styling ends */
+
+
+/* div1 styling starts */
+.div1 {
+    display: flex;
+}
+
+.div1-child {
+    flex: 1;
+    
+}
+
+h3{
+    color: #5b4962;
+font-family: "CircularXX";
+font-size: 35px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 45px;
+text-align: left;
+padding-top: 90px;
+}
+.span2{
+    font-size: 20px;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+.mom-boy-img
+{
+    position: absolute;
+    z-index: 2;
+border-radius: 17px;
+padding-left: 150px;
+}
+
+.yellow-card
+{
+    position: absolute;
+    z-index: 1;
+border-radius: 17px;
+padding-left: 130px;
+margin-top: 90px;
+height: 40vh;
+}
+/* div1 styling ends */
+
+/* para2 styling starts */
+
+.para2
+{
+    color: #5b4962;
+font-family: "CircularXX";
+font-size: 18px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+/* Text style for "Cochlear F" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+padding-left: 150px;
+margin-top: 80px;
+}
+.span3
+{
+    font-size: 12px;
+font-weight: 300;
+font-style: italic;
+letter-spacing: normal;
+line-height: 30px;
+}
+/* para2 styling ends */
 
 /* seprationdiv starts */
 .seprationdiv h4 hr
@@ -170,7 +234,7 @@ margin-top: 60px;
 .heading3
   {
       color: #5b4962;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     font-size: 65px;
     font-weight: 700;
     font-style: normal;
@@ -187,46 +251,6 @@ margin-top: 60px;
   
 /* div2 styling ends */
 
-/* div4 styling starts */
-.div4
-{
-    display: flex;
-}
-.div4-child
-{
-    flex: 1;
-}
-.para2{
-    color: #5b4962;
-    font-family: "CircularXX-Black";
-    font-size: 22px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 35px;
-    text-align: left;
-    padding-top: 30px;
-    padding-left: 40px;
-    
-}
-.second-img
-{ position: absolute;
-    z-index: 2;
-    width: 541px;
-height: 408px;
-margin-left: 150px;
-}
-.yellow-card2
-{ position: absolute;
-    z-index: 2;
-    width: 541px;
-height: 408px;
-margin-left: 140px;
-margin-top: 10px;
-}
-
-/* div4 styling ends */
-
 
 /* div3 styling starts */
 .div3
@@ -236,18 +260,16 @@ margin-top: 10px;
 }
 .div3-child {
     flex: 1;
-    padding-top: 50px;
     
 } 
 .pampletimg{
     border-radius: 15px;
    width: 80%;
    padding-left: 150px;
-  
 } 
 .para6{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 700;
 font-style: normal;
@@ -255,12 +277,12 @@ letter-spacing: normal;
 line-height: 30px;
 text-align: left;
 padding-bottom: 30px;
-margin-top: 135px;
+padding-top: 15px;
 
 }
 .heading4{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 24px;
 font-weight: 700;
 font-style: normal;
@@ -269,17 +291,12 @@ line-height: normal;
 text-align: left;
 padding-top: 10px;
 padding-bottom: 0px;
-margin-left: -150px;
-}
-.correction
-{
-    margin-top: -60px;
 }
 
 .shortword
 {
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 15px;
 font-weight: 700;
 font-style: normal;
@@ -301,15 +318,6 @@ padding-top: 15px;
 {
     margin-top: 60px;
 }
-.dot {
-    width: 9px;
-height: 9px;
-background-color: #efbd46;
-    border-radius: 50%;
-    display: inline-block;
-   
-    
-  }
 /* div3 styling ends */
 
 
@@ -329,8 +337,8 @@ margin-top: 20px;
 .heading5
 {
 color: #f0bd46;
-font-family: "CircularXX-Black";
-font-size: 18px;
+font-family: "CircularXX";
+font-size: 30px;
 font-weight: 700;
 font-style: normal;
 letter-spacing: normal;
@@ -342,8 +350,8 @@ padding: 20px 100px 10px;
 .para7
 {
     color: #ffffff;
-font-family: "CircularXX-Black";
-font-size: 12px;
+font-family: "CircularXX";
+font-size: 18px;
 font-weight: 300;
 font-style: normal;
 letter-spacing: normal;

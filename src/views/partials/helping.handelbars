@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="wc-ref" content="< D1851837>">
+    <title>helping</title>
+    <link rel="stylesheet" href="../css/helpingStyle.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Cochlear Foundation</a>
+     <nav class="nav">
+         <ul class="navLinks">
+             <li><a href="#">our history</a> </li>
+             <li><a href="#">our impact</a> </li>
+             <li><a href="#">case studies</a> </li>
+             <li><a href="#">contact us</a> </li>
+
+         </ul>
+     </nav>
+    </header>
+
+<!-- div1 starts here -->
+    <div class="div1">
+
+        <h5>case study</h5>
+        <h1>Helping Vietnam’s children <br>
+            with hearing loss reach <br>
+            their full potential</h1>
+            <img class="yellow-card" src="../back-image/delevring-img.png" alt="">
+            <img class="first" src="../images/helpingPage-img.png" alt="">
+
+    </div>
+    <!-- div1 ends here -->
+
+    <!-- para2 and heading -->
+
+    <h2>Supporting the <span class="span">Global Foundation for Children with Hearing Loss</span> </h2>
+    <p class="para1">With funding support from Cochlear Foundation, the Global Foundation for Children with Hearing Loss developed and executed a <br> training program for auditory-verbal therapy, so more of Vietnam’s children with hearing loss can develop listening and speaking <br> skills.  
+    </p>
+<!-- div4 starts here -->
+    <div class="div4">
+        <div class="div4-child">
+            <img class="yellow-card2" src="../back-image/helping-img.png" alt="">
+           <img class="second-img" src="../images/helpingPage-img2.png" alt="">
+        </div>
+        <div class="div4-child">
+            <p class="para2">Auditory-verbal therapy is a method for <br> teaching children with profound hearing <br> loss to listen and speak using their hearing <br> technology, such as hearing aids or <br> hearing implants. It focuses on listening <br> skills to improve communication. With <br> early intervention, this therapy helps offer <br> children with hearing loss access to the <br> same opportunities and an equal start in <br> life as hearing children.</p>
+        </div>
+    </div>
+<!-- div4 ends here -->
+
+
+<!-- para3 and heading -->
+<p class="para1">The Global Foundation delivered the milestone development of a national standard training curriculum for Vietnam. This means that <br> there’s a permanent program in place to ensure ongoing training, backed by the Vietnam government’s Ministry of Education and <br> Training. As a result, the children of Vietnam should have increased access to therapy as more training is offered. <br><br>
+
+    The program started by providing in-country instruction and online coaching in 2018 to improve and expand the skills of the country’s <br> auditory-verbal therapists. This training became the framework for upskilling others, expanding access to therapy for more children <br> going forward.  The foundation also hosted events for children  and their carers with lectures, discussions, and group activities to give <br> parents skills and strategies to practise at home and understand child development markers. 
+    </p>
+
+    <h2>Improving hearing outcomes for future generations</h2>
+    <p class="para1">Hospital screening and monitoring is critical for early diagnosis of hearing loss, given the higher rates occurring in intensive care units and neonatal intensive care patients, compared to standard baby nurseries. Low awareness and understanding of hearing loss may sometimes lead to misdiagnosing children with autism or other issues.  <br><br>
+
+        To help, the Global Foundation provided training for Vietnam National Children’s Hospital’s audiology team to use hearing equipment to perform various real ear tests and measurements. This equipment also ensures accurate and optimal fitting of hearing aids in children. 
+        
+        </p>
+
+        <h2>Results</h2>
+        <p class="para1">Since starting the program, the Global Foundation has trained over 220 teachers, 270 families and 125 health professionals. The program is already benefitting over 1,000 children with disabling hearing loss. </p>
+
+    <div class="seprationdiv">
+        <h4>
+            <hr>
+        </h4>
+    </div>
+    <!-- div2 starts here -->
+    
+    <div class="div2">
+        <h1 class="heading3">Learn more about the <br>
+             programs we support.</h1>
+    </div>
+    <!-- div2 ends here -->
+
+
+    <!-- div3 starts here -->
+    
+    
+         <div class="div3">
+         
+         <div class="div3-child">
+             <img src="../images/papletimage2.png" alt="" class="pampletimg img2">
+         </div>
+         <div class="div3-child">
+             <p class="shortword corrected"><span class="dot"></span>  In Australia</p>
+        <h1 class="heading4 ">The Shepherd Centre > </h1>
+        <p class="para6 ">Supporting ongoing research and access to hearing treatment <br>
+            services for children, as well as outreach services for remote and <br>
+             rural communities. Through their HearHub, the Shepherd Centre’s <br>
+              world-leading Early Intervention System is set to reach even more <br>
+               people beyond Australian shores. </p>
+         </div>
+       </div>
+        
+     
+       <div class="div3 correction">
+     
+         <div class="div3-child">
+             <img src="../images/pampletimage1.png" alt="" class="pampletimg img3">
+         </div>
+         <div class="div3-child">
+             <p class="shortword"><span class="dot"></span>   Across the world </p>
+        <h1 class="heading4">Malala Fund ></h1>
+        <p class="para6">Raising awareness of the needs of girls, children and young <br>
+             people  with hearing loss, promoting their equal rights to an <br>
+              education and opportunities that enable them to realise their full <br>
+               potential. </p>
+         </div>
+       </div>
+        <!-- div3 ends here -->
+     
+     <footer class="footer">
+         <div class="footer-child">
+             <h6 class="heading5">contact</h6>
+             <h6 style="color: white; padding: 20px 100px;">contact@cochlearfoundation.org</h6>
+           </div>
+     
+           <div class="footre-child">
+             <p class="para7">Please be mindful that Cochlear Foundation is an invite-only grant-making organisation. We <br> distribute local grants that align with our aim to raise awareness of hearing loss and help more <br> people around the world access life-changing hearing treatment.</p>
+           </div>
+     
+     </footer> 
+</body>
+</html>

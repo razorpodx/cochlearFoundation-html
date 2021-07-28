@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="wc-ref" content="< D1851837>">
+    <title>contact us</title>
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Cochlear Foundation</a>
+     <nav class="nav">
+         <ul class="navLinks">
+             <li><a href="#">our history</a> </li>
+             <li><a href="#">our impact</a> </li>
+             <li><a href="#">case studies</a> </li>
+             <li><a href="#">contact us</a> </li>
+
+         </ul>
+     </nav>
+    </header>
+
+<div class="head ">
+    <h1 class="heading"><span class="span">Contact</span> us</h1>
+</div>
+
+
+<div class="contactDetails">
+<h4 >Further information</h4>
+<h2>contact@cochlearfoundation.org</h2>
+<p>Cochlear Foundation is a separate legal entity to Cochlear Limited and is not consolidated into the Cochlear Group.</p>
+</div>
+
+
+<footer class="footer">
+    <div class="footer-child">
+        <h6 class="heading5">contact</h6>
+        <h6 style="color: white; padding: 20px 100px;">contact@cochlearfoundation.org</h6>
+      </div>
+
+      <div class="footre-child">
+        <p class="para7">Please be mindful that Cochlear Foundation is an invite-only grant-making organisation. We <br> distribute local grants that align with our aim to raise awareness of hearing loss and help more <br> people around the world access life-changing hearing treatment.</p>
+      </div>
+
+</footer>
+</body>
+</html>

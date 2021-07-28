@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="wc-ref" content="< D1851837>">
+    <link rel="stylesheet" href="../css/helping2.css">
+    <title>helping 2</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Cochlear Foundation</a>
+     <nav class="nav">
+         <ul class="navLinks">
+             <li><a href="#">our history</a> </li>
+             <li><a href="#">our impact</a> </li>
+             <li><a href="#">case studies</a> </li>
+             <li><a href="#">contact us</a> </li>
+
+         </ul>
+     </nav>
+    </header>
+
+<!-- div1 starts here -->
+    <div class="div1">
+
+        <h5>case study</h5>
+        <h1>Helping children achieve <br>
+            anything they set their <br>
+            minds to in life</h1>
+            <video width="600" height="300" controls class="video-box">
+                <source src="../video/asta.webm" type="video/webm">
+               
+              Your browser does not support the video tag.
+              </video>
+
+    </div>
+<!-- div1 ends here -->
+
+<!-- para and heading -->
+    <div class="div2">
+        <h2>Supporting <span class="sapn1">Malala Fund</span> </h2>
+        <p>Malala Fund and Cochlear Foundation have joined forces to raise awareness of the needs of millions of girls, children and young <br> people  with hearing loss worldwide. Together, we will promote their equal rights to an education and early access to hearing <br> treatment. <br><br>
+
+            Early access to better hearing can help children speak, learn, and develop, significantly improving their ability to gain an education <br> and realise their full potential. <span class="span">1,2</span>. <br><br>
+            
+            However, worldwide 34 million children have disabling hearing loss. <span class="span">3</span> If not hearing loss is not treated early on, children often <br> experience a slow progression throughout their academic life, including lower school performance, higher risk of dropping out of <br> school, and less likelihood of accessing higher education4. Ultimately, this can hamper their lifelong career prospects.<span class="span">3</span> <br><br>
+            
+            This problem is exacerbated in many parts of the world where children – especially girls – already face significant barriers to <br> education. <span class="span">5</span> 
+            </p> <br>
+
+            <h3>Promoting equal rights to education for girls, children and young people  with hearing loss</h3> <br>
+
+            <p>At age 15, Malala Yousafazi was attacked by the Taliban for speaking out for girls’ education. In 2013 she co-founded Malala Fund <br> with her father, Ziauddin. A year later, Malala received the Nobel Peace Prize in recognition of her efforts to see every girl complete <br> 12 years of free, safe, quality education. The fund continues to champion this mission. <br><br>
+
+                Malala who has personal experience of hearing loss and has a cochlear implant added her voice to the hearing health cause by writing <br> a personal foreword for the World Health Organization’s first World Report on Hearing in 2021. In the report she said that with all the <br> barriers to equality facing girls, women and other marginalized people, those who need hearing care are further disadvantaged and <br> too often left behind. </p> <br>
+
+                
+    </div>
+   <!-- div2 ends -->
+
+   <!-- div3 starts -->
+   <div class="div3">
+       <div class="div3-child">
+           <img class="yellow-card" src="../back-image/helping-img.png" alt="">
+        <img class="malala" src="../images/helping2img-1.png" alt="">
+       </div>
+       <div class="div3-child">
+        <h4 class="position">“That [hearing loss] is a part of me <br> but should never stop me from <br> achieving anything in my life.”</h4>
+        <h6 >- Malala Yousafzai</h6>
+       </div>
+   </div>
+   <!-- div3 ends -->
+
+   <!-- div4 starts -->
+
+   <div class="div4">
+    <h3>Three paths that lead to change</h3> <br>
+    <p>Throughout our three-year partnership, Malala Fund and Cochlear Foundation we aspire to remove hearing loss as a barrier to life’s <br> opportunities – ensuring girls, children and young people can gain an education and realise their ability to thrive throughout their life. <br> To achieve this, we will: <br><br>
+ 
+     1.	Parents: Appeal to parents to check and if needed, treat their child’s hearing loss from early childhood to make sure hearing loss <br> doesn’t hamper their personal development, ability to access education and realise their full potential. <br><br> 
+     
+     2.	Hearing health community: Join forces with hearing health non-government organisations (NGOs) and advocacy organisations to <br> collectively raise awareness of the needs of millions of children with hearing loss worldwide. We’ll promote their equal rights to an <br> education and early access to hearing treatment. <br><br>
+     
+     3.	Governments and societies: Support a growing global call for governments and societies to prioritise hearing health, providing <br> children access to the most appropriate hearing treatments so they can speak, learn, develop and realise their full potential. <br><br>
+     
+     Just as Malala inspires people everywhere through her amazing story of courage and persistence, we will work alongside Malala Fund <br> to inspire girls, children and young people  with hearing loss, encouraging them to gain an education, build self-esteem and realise <br> their full potential throughout their life. <br> 
+     </p>
+<div class="div4 slogan"> <p id="para">We aspire to remove hearing loss as a barrier to life’s <br> opportunities - ensuring girls, children and young people can <br> gain an education and realise their ability to thrive throughout <br> their life.</p> 
+</div>
+     <p class="points-5">
+        1.	Ching TYC and Dillon H. Major Findings of the LOCHI study on children at 3 years of age and implications for audiological management. Int J Audiol. (2013 Dec); 52:sup2, S6-S68. <br>
+        2.	Ching TYC, Dillon H, Button L, Seeto M, Van Buynder P, Marnane V, Cupples L, Leigh G. Age at Intervention for Permanent Hearing Loss and 5-Year Language Outcomes. Pediatrics. (2017 Sep); 140(3). <br>
+        3.	World Health Organization. Factsheet: deafness and hearing loss. Available here: https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss. <br>
+        4.	World Report on Hearing, World Health Organization.https://www.who.int/publications/i/item/world-report-on-hearing. <br>
+        5.	UNICEF, Gender equality in education benefits every child, https://www.unicef.org/education/girls-education <br>
+        </p> <br>
+   </div>
+  
+   <!-- div4 ends -->
+
+
+   <div class="seprationdiv">
+    <h4>
+        <hr>
+    </h4>
+</div>
+<!-- div5 starts here -->
+
+<div class="div5">
+    <h1 class="heading3">Learn more about the <br>
+         programs we support.</h1>
+</div>
+<!-- div5 ends here -->
+
+
+<!-- div6 starts here -->
+
+
+     <div class="div6">
+     
+     <div class="div6-child">
+         <img src="../images/papletimage2.png" alt="" class="pamplet-img img2">
+     </div>
+     <div class="div6-child">
+         <p class="shortword corrected"></span>  In Australia</p>
+    <h1 class="heading4 ">The Shepherd Centre > </h1>
+    <p class="para6 ">Supporting ongoing research and access to hearing treatment <br>
+        services for children, as well as outreach services for remote and <br>
+         rural communities. Through their HearHub, the Shepherd Centre’s <br>
+          world-leading Early Intervention System is set to reach even more <br>
+           people beyond Australian shores. </p>
+     </div>
+   </div>
+    
+ 
+   <div class="div6 correction">
+ 
+     <div class="div6-child">
+         <img src="../images/pampletimage1.png" alt="" class="pamplet-img img3">
+     </div>
+     <div class="div6-child">
+         <p class="shortword"> Across the world </p>
+    <h1 class="heading4">Malala Fund ></h1>
+    <p class="para6">Raising awareness of the needs of girls, children and young <br>
+         people  with hearing loss, promoting their equal rights to an <br>
+          education and opportunities that enable them to realise their full <br>
+           potential. </p>
+     </div>
+   </div>
+    <!-- div6 ends here -->
+ 
+ <footer class="footer">
+     <div class="footer-child">
+         <h6 class="heading5">contact</h6>
+         <h6 style="color: white; padding: 20px 100px;">contact@cochlearfoundation.org</h6>
+       </div>
+ 
+       <div class="footre-child">
+         <p class="para7">Please be mindful that Cochlear Foundation is an invite-only grant-making organisation. We <br> distribute local grants that align with our aim to raise awareness of hearing loss and help more <br> people around the world access life-changing hearing treatment.</p>
+       </div>
+ 
+ </footer> 
+</body>
+</html>

@@ -1,5 +1,12 @@
-@font-face { font-family: CircularXX-Black ; 
-    src: url('../font/CircularXX-Black.otf'); } 
+@font-face {
+    font-family: 'CircularXX';
+    src: url('CircularXX-Regular.woff2') format('woff2'),
+        url('CircularXX-Regular.woff') format('woff'),
+        url('CircularXX-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 
@@ -29,7 +36,7 @@ li,a
    
     font-weight: 500;
     color: #ffffff;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     font-size: 20px;
     text-decoration: none;
 }
@@ -38,7 +45,7 @@ li,a
 {
     cursor: pointer;
     font-weight: 300;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     color: #ffffff;
     font-size: 35px;
 }
@@ -120,7 +127,7 @@ li,a
 }
 .on-img-heading
 { color:#ffffff;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
 font-size: 70px;
 font-weight: 700;
 font-style: normal;
@@ -175,7 +182,7 @@ text-align: center;
 .para1
 {
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 65px;
 font-weight: 700;
 font-style: normal;
@@ -194,7 +201,7 @@ padding-left: 300px;
 .para2
 {
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 300;
 font-style: normal;
@@ -224,7 +231,7 @@ margin-left: 50px;
 
 .heading
 {color: #ffffff;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     font-size: 60px;
     font-weight: 700;
     font-style: normal;
@@ -242,7 +249,7 @@ margin-left: 50px;
 .para3
 {
     color: #ffffff;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 300;
 font-style: normal;
@@ -259,7 +266,7 @@ border-radius: 31px;
 background-color: #ffffff;
 padding: 15px 50px;
 color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 22px;
 font-weight: 700;
 justify-content: space-between;
@@ -285,7 +292,7 @@ margin-bottom: 30px;
 .heading2
 {
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 72px;
 font-weight: 700;
 font-style: normal;
@@ -297,7 +304,7 @@ padding:100px 100px 0px;
 .para4
 {
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 22px;
 font-weight: 700;
 font-style: normal;
@@ -314,7 +321,7 @@ border-radius: 31px;
 background-color: #5b4962;
 padding: 15px 50px;
 color: #ffffff;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 22px;
 font-weight: 700;
 justify-content: space-between;
@@ -323,7 +330,7 @@ margin-top: 200px;
 }
 .para5{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 300;
 font-style: normal;
@@ -367,7 +374,7 @@ background-color: #efbd46;
 .heading3
   {
       color: #5b4962;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     font-size: 90px;
     font-weight: 700;
     font-style: normal;
@@ -401,7 +408,7 @@ background-color: #efbd46;
 } 
 .para6{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 700;
 font-style: normal;
@@ -414,7 +421,7 @@ padding-top: 15px;
 }
 .heading4{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 24px;
 font-weight: 700;
 font-style: normal;
@@ -428,7 +435,7 @@ padding-bottom: 0px;
 .shortword
 {
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 15px;
 font-weight: 700;
 font-style: normal;
@@ -468,7 +475,7 @@ margin-top: 20px;
 .heading5
 {
 color: #f0bd46;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 30px;
 font-weight: 700;
 font-style: normal;
@@ -481,7 +488,7 @@ padding: 20px 100px 10px;
 .para7
 {
     color: #ffffff;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 300;
 font-style: normal;

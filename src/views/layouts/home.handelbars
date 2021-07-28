@@ -102,7 +102,7 @@
   <div class="div2">
 
     <div class="div2-img">
-    <img class="first" src="../images/homepage-ourhistory.png" alt="">
+    <img class="first" src="../images/homepage-img.png" alt="">
     </div>
     
     <div class="div2-child">
@@ -197,7 +197,7 @@
          <div class="div5">
        
            <div class="div5-child">
-               <img src="../images/pampletimage3.png" alt="" class="pampletimg img3">
+               <img src="../images/pampletimage1.png" alt="" class="pampletimg img3">
            </div>
            <div class="div5-child">
                <p class="shortword">Across the world </p>

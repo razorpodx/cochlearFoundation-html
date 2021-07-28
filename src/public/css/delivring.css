@@ -1,5 +1,12 @@
-@font-face { font-family: CircularXX-Black ; 
-    src: url('../font/CircularXX-Black.otf'); } 
+@font-face {
+    font-family: 'CircularXX';
+    src: url('CircularXX-Regular.woff2') format('woff2'),
+        url('CircularXX-Regular.woff') format('woff'),
+        url('CircularXX-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 *
@@ -28,7 +35,7 @@ li,a
    
     font-weight: 500;
     color: #ffffff;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     font-size: 20px;
     text-decoration: none;
 }
@@ -37,7 +44,7 @@ li,a
 {
     cursor: pointer;
     font-weight: 300;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     color: #ffffff;
     font-size: 35px;
 }
@@ -61,7 +68,6 @@ li,a
 }
 /*navbar styling end*/
 
-
 /* div1 styling starts */
 
 .div1
@@ -72,7 +78,7 @@ li,a
 h1
 {
     color: #ffffff;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 72px;
 font-weight: 700;
 font-style: normal;
@@ -86,7 +92,7 @@ padding-top: 20px;
 h5
 {
     color: #ffffff;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 22px;
 font-weight: 700;
 font-style: normal;
@@ -97,183 +103,112 @@ padding-left: 150px;
 padding-top: 50px;
 }
 
-
-/* video box styling */
-
-body
-{
-    background-color: #eae7dc;
-    
-    
-}
-
-.video-box
-{
-    width: 70%;
-    height: 90vh;
-    margin-top: 160px;
-    margin-left: 140px;
-    justify-content: center;
-    border-radius: 0%;
-    
+.first
+{   position: absolute;
+    z-index: 2; 
+      width: 80%;
+    padding-top: 280px;
+    padding-left: 180px;
    
 }
-/* video box styling ends */
+.yellow-card
+{   position: absolute;
+    z-index: 1; 
+    width: 68%;
+    margin-top: 290px;
+    margin-left: 160px;
+    height: 524px;
+   
+}
 /* div1 styling ends */
 
 
-/* para and heading */
-
-.div2
-{
-    padding-left: 150px;
-    margin-top: 200px;
-}
+/* para and heading styling */
 
 h2{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 35px;
 font-weight: 700;
 font-style: normal;
 letter-spacing: normal;
 line-height: normal;
 text-align: left;
+padding-left: 150px;
+margin-top: 80px;
 }
-
 h3{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 22px;
 font-weight: 700;
 font-style: normal;
 letter-spacing: normal;
 line-height: normal;
 text-align: left;
+padding-left: 150px;
+
 }
+
 p{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 300;
 font-style: normal;
 letter-spacing: normal;
 line-height: 30px;
 text-align: left;
+padding-left: 150px;
+padding-top: 20px;
 }
-
-.sapn1
-{
-    text-decoration: underline;
-}
-
-.span{
+span{
     font-size: 10px;
 font-style: normal;
 letter-spacing: normal;
 line-height: normal;
 }
 
-/* div3 styling */
-.div3
-{
-    display: flex;
-}
+/* image div styling */
 
-.div3-child
-{
-    flex: 1;
-}
-
-h4{
-    color: #5b4962;
-font-family: "CircularXX-Black";
-font-size: 35px;
-font-weight: 700;
-font-style: italic;
-letter-spacing: normal;
-line-height: 50px;
-text-align: left;
-}
-h6{
-    color: #5b4962;
-font-family: "CircularXX-Black";
-font-size: 18px;
-font-weight: 300;
-font-style: normal;
-letter-spacing: normal;
-line-height: 30px;
-}
-
-.malala
-{
+.img-2{
     position: absolute;
     z-index: 2;
     padding-left: 150px;
-    
+    border-radius: 26px;
+width: 80%;
+padding-top: 20px;
 }
-.yellow-card
-{
-    position: absolute;
+.yellow-card2
+{position: absolute;
     z-index: 1;
-    padding-left: 90px;
-    padding-top: 20px;
-    margin-left: -70px;
-    margin-top: -30px;
-    width: 688px;
-    height: 42vh;
-     border-radius: 26px;
+    padding-left: 130px;
+    margin-top: 15px;
+    border-radius: 26px;
+width: 80%;
+padding-top: 20px;
 }
 
-.position
+.para2
 {
-    padding-top: 30px;
-    margin-left: -50px;
-}
-/* div3 styling ends */
-
-/* div4 styling */
-.div4
-{
-    padding-left: 150px;
-    margin-top: 100px;
-    
+    margin-top: 450px;
 }
 
 #para
 {
     color: #5b4962;
-font-family: "CircularXX-Black";
-font-size: 35px;
-font-weight: 700;
-font-style: normal;
+font-family: "CircularXX";
+font-size: 12px;
+font-weight: 300;
+font-style: italic;
 letter-spacing: normal;
-line-height: 50px;
-text-align: center;
-margin-left: -80px;
-padding: 20px 0px;
+line-height: 30px;
+text-align: left;
 }
-.slogan
-{
-    background-color: #f7f5ef;
-    margin-left: -200px;
-}
-.points-5
-{  padding: 40px  0px;
-    color: #5b4962;
-    font-family: "CircularXX-Black";
-    font-size: 12px;
-    font-weight: 300;
-    font-style: italic;
-    letter-spacing: normal;
-    line-height: 30px;
-    text-align: left;
-}
-/* div4 styling ends */
 
 /* seprationdiv starts */
 .seprationdiv h4 hr
-{   margin-top: -0px;
+{   margin-top: 80px;
     margin-left: 100px;
    margin-right: 100px;
     border: none;
@@ -283,9 +218,9 @@ padding: 20px 0px;
 
 /* seprationdiv ends */
 
-/* div5 styling starts */
+/* div2 styling starts */
 
-.div5
+.div2
 {
     background-color: #eae7dc;
     display: flex;
@@ -296,7 +231,7 @@ padding: 20px 0px;
 .heading3
   {
       color: #5b4962;
-    font-family: "CircularXX-Black";
+    font-family: "CircularXX";
     font-size: 65px;
     font-weight: 700;
     font-style: normal;
@@ -311,23 +246,52 @@ padding: 20px 0px;
   } 
 
   
-/* div5 styling ends */
+/* div2 styling ends */
+
+/* div4 styling starts */
+.div4
+{
+    display: flex;
+}
+.div4-child
+{
+    flex: 1;
+}
+.para2{
+    color: #5b4962;
+    font-family: "CircularXX";
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 35px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 40px;
+    
+}
+.second-img
+{
+    width: 541px;
+height: 408px;
+margin-left: 150px;
+}
+
+/* div4 styling ends */
 
 
-
-
-/* div6 styling starts */
-.div6
+/* div3 styling starts */
+.div3
 {
     background-color: #eae7dc;
     display: flex;
 }
-.div6-child {
+.div3-child {
     flex: 1;
     padding-top: 50px;
     
 } 
-.pamplet-img{
+.pampletimg{
     border-radius: 15px;
    width: 80%;
    padding-left: 150px;
@@ -335,7 +299,7 @@ padding: 20px 0px;
 } 
 .para6{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 700;
 font-style: normal;
@@ -343,12 +307,13 @@ letter-spacing: normal;
 line-height: 30px;
 text-align: left;
 padding-bottom: 30px;
-margin-top: 135px;
+margin-top: 115px;
+margin-left: -180px;
 
 }
 .heading4{
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 24px;
 font-weight: 700;
 font-style: normal;
@@ -357,7 +322,7 @@ line-height: normal;
 text-align: left;
 padding-top: 10px;
 padding-bottom: 0px;
-margin-left: -150px;
+margin-left: -180px;
 }
 .correction
 {
@@ -367,7 +332,7 @@ margin-left: -150px;
 .shortword
 {
     color: #5b4962;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 15px;
 font-weight: 700;
 font-style: normal;
@@ -375,6 +340,7 @@ letter-spacing: normal;
 line-height: 30px;
 text-align: left;
 padding-top: 15px;
+margin-left: -180px;
 }
 
 .img1
@@ -398,7 +364,7 @@ background-color: #efbd46;
    
     
   }
-/* div6 styling ends */
+/* div3 styling ends */
 
 
 
@@ -417,7 +383,7 @@ margin-top: 20px;
 .heading5
 {
 color: #f0bd46;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 30px;
 font-weight: 700;
 font-style: normal;
@@ -430,7 +396,7 @@ padding: 20px 100px 10px;
 .para7
 {
     color: #ffffff;
-font-family: "CircularXX-Black";
+font-family: "CircularXX";
 font-size: 18px;
 font-weight: 300;
 font-style: normal;
